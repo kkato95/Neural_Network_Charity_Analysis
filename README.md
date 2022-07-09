@@ -36,8 +36,9 @@ Regarding deliverable 3, where we were to optimize the model, we were not able t
 
 
 3. What steps did you take to try and increase model preformances?
-We tried several things to boost the accuracy score. We began by 
+We tried several things to boost the accuracy score. Our most successful model provided an accuracy score of 72.86% which is .3% greater than the original model. We acheived this by dropping the SPECIAL_CONSIDERATIONS column as well. Then we changed the conditional amount to 800 for classification and 200 for application_type. Lastly, we added 2 more hidden layers with activation 'relu'.
 
 
 ## Summary
 
+The results of our application model are fair. The model predicts correctly 72.86% of the time. We optimized the model by changing minor features of the model. The loss amount is also fairly high, with a value of 0.5523. If we were to create a smiliar model to solve this classification problem, we would acquire more data to run through the model. 

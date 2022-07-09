@@ -17,23 +17,26 @@ The purpose of this deliverable is to run the deep neural network. We bgan by de
 #### Data Preprocessing
 
 1. What variables are considered the targets for you model?
-
+The target for our model is the IS_SUCCESSFUL column determining if the funding was paid out on not.
 
 2. What variables are considered to be the features for your model?
-
+The features for our model includes the values for the application_type
 
 3. What variables are neither targets nor features, and should be removed from the input data?
-
+From our initial dataframe, we dropped the EIN and NAME coulmns because it was additional noise that did not add any value. In our optimized file, we determined to drop SPECIAL_CONSIDERATIONS as it provided no value.
 
 
 #### Compiling, Training, and Evaluating the Model
 
 1. How many neurons, layer, and activation functions did you select from your neural network model, and why?
+In our original file we included 3 hidden layers and each layer had 80, 50, and 40 nodes in each layer respectivly. We desired a deep learning neural network due to the complexity of the data. The deep learning neural network will provide highest model accuracy score possible. 
 
 2. Were you able to acheive the target model preformance?
+Regarding deliverable 3, where we were to optimize the model, we were not able to reach the desired 75% accuracy score. We were unable to reach a higher accuracy score in our optimized model.
+
 
 3. What steps did you take to try and increase model preformances?
-
+We tried several things to boost the accuracy score. We began by 
 
 
 ## Summary
